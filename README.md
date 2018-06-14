@@ -1,7 +1,7 @@
 
-# Fingers Game
+# Dots Game
   
-No jogo você deve chegar ao topo da torre antes de seus oponentes. Você pode empurra-los para fora da plataforma dificultando assim a jogatina para o adversário.
+No jogo você deve capturar todos os pontos chave e bases inimigas, eliminando assim o jogador adversário. Vence o player que dominar todas as areas primeiro.
 
 ## Estrutura:
   - client - Front end do jogo.
@@ -10,4 +10,4 @@ No jogo você deve chegar ao topo da torre antes de seus oponentes. Você pode e
 # Instalação e execução
 
 Use `npm i` para instalar as dependências e `npm start` para executar o projeto.
-Feito isto, o projeto estará disponível em http://localhost:8080/
+Feito isto, o projeto estará disponível em http://localhost:3000/
