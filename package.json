@@ -1,16 +1,21 @@
 {
   "name": "dots",
-  "version": "0.0.1",
-  "private": true,
+  "version": "1.0.0",
+  "description": "No jogo você deve capturar todos os pontos chave e bases inimigas, eliminando assim o jogador adversário. Vence o player que dominar todas as areas primeiro.",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusMoura17/dots.git"
+  },
+  "author": "Matheus Moura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusMoura17/dots/issues"
+  },
+  "homepage": "https://github.com/MatheusMoura17/dots#readme",
   "dependencies": {
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "express": "~4.16.0",
-    "http-errors": "~1.6.2",
-    "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11"
   }
 }
