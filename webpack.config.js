@@ -10,11 +10,10 @@ module.exports = {
   module: {
     rules: [
       { 
-        test: /\.js$/, 
-        use:{
+        test: /\.js$/,
+        use: {
           loader: 'babel-loader',
-          query: { presets: ['es2015', 'stage-0'] }
-        }
+        },
       }
     ]
   },
