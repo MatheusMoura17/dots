@@ -1,5 +1,7 @@
 
 # Dots Game
+
+[![Build Status](https://travis-ci.org/MatheusMoura17/dots.svg?branch=master)](https://travis-ci.org/MatheusMoura17/dots)
   
 No jogo você deve capturar todos os pontos chave e bases inimigas, eliminando assim o jogador adversário. Vence o player que dominar todas as areas primeiro.
 
