@@ -1,6 +1,9 @@
+import Debugger from './Debugger';
+
 class Component {
   draw = () => {
-    console.log('drawed');
+    Debugger.active = true;
+    Debugger.log('drawed');
   };
 }
 

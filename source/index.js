@@ -1,13 +1,20 @@
+import Debugger from './components/Debugger';
 import Component from './components/Component';
 
+
 class Main extends Component{
-  
-  debugHelloWorld = () => {
-    // console.log('Olá mundo');
+
+  constructor () {
+    super();
+    Debugger.active = false;
   };
   
-  debugSimpleText = () => {
-    // console.log(asdk);
+  debugHelloWorld = () => {
+    Debugger.log('Olá mundo');
+  };
+  
+  debugSimpleText = () => { 
+    Debugger.log(asdk);
   };
   
   sumEqualFive = (num1, num2) => {
@@ -17,8 +24,8 @@ class Main extends Component{
 
 var m = new Main();
 
-console.log('aa');
-console.log(m.sumEqualFive(10,10));
+Debugger.log('aa');
 m.draw();
+Debugger.log(m.sumEqualFive(10,10));
 
 export default Main;
