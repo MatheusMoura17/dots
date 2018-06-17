@@ -5,8 +5,6 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/MatheusMoura17/dots/badge.svg?branch=master)](https://coveralls.io/github/MatheusMoura17/dots?branch=master)
 
-[![Coverage Status](https://coveralls.io/repos/github/MatheusMoura17/dots/badge.svg?branch=implementa-ferramenta-testes)](https://coveralls.io/github/MatheusMoura17/dots?branch=implementa-ferramenta-testes)
-
 O objetivo do projeto é prover uma boa estrutura de games webbased. 
 Ferramentas utilizadas:
   - Nodejs
