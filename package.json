@@ -5,7 +5,8 @@
   "main": "source/js/index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --hot --content-base ./public",
-    "test": "eslint source/**/*.js",
+    "test": "npm run lint & npm run coverage",
+    "lint": "eslint source/**/*.js",
     "coverage": "babel-node node_modules/.bin/babel-istanbul cover _mocha -- ./test/* --recursive"
   },
   "repository": {
