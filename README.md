@@ -1,9 +1,7 @@
 
 # Dots Game
 
-[![Build Status](https://travis-ci.org/MatheusMoura17/dots.svg?branch=master)](https://travis-ci.org/MatheusMoura17/dots) 
-
-[![Coverage Status](https://coveralls.io/repos/github/MatheusMoura17/dots/badge.svg?branch=master)](https://coveralls.io/github/MatheusMoura17/dots?branch=master)
+[![Build Status](https://travis-ci.org/MatheusMoura17/dots.svg?branch=master)](https://travis-ci.org/MatheusMoura17/dots) [![Coverage Status](https://coveralls.io/repos/github/MatheusMoura17/dots/badge.svg?branch=master)](https://coveralls.io/github/MatheusMoura17/dots?branch=master)
 
 O objetivo do projeto é prover uma boa estrutura de games webbased. 
 Ferramentas utilizadas:
