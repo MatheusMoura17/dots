@@ -1,31 +1,12 @@
-import Debugger from './components/Debugger';
-import Component from './components/Component';
+import Game from './engine/game';
+import Debugger from './tools/debugger';
 
+//-- Utilitarios
+Debugger.active = true;
 
-class Main extends Component{
+//-- Referências
+let gameElem = document.querySelector('#game');
 
-  constructor () {
-    super();
-    Debugger.active = false;
-  };
-  
-  debugHelloWorld = () => {
-    Debugger.log('Olá mundo');
-  };
-  
-  debugSimpleText = () => { 
-    Debugger.log(asdk);
-  };
-  
-  sumEqualFive = (num1, num2) => {
-    return num1 + num2;
-  };
-}
-
-var m = new Main();
-
-Debugger.log('aa');
-m.draw();
-Debugger.log(m.sumEqualFive(10,10));
-
-export default Main;
+//-- Inicialização
+let game = new Game(gameElem);
+game.init();
