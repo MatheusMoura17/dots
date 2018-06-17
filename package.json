@@ -42,6 +42,6 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-1": "^6.24.1",
     "object-assign": "^4.1.1",
-    "three-js": "^79.0.0"
+    "three": "^0.93.0"
   }
 }
