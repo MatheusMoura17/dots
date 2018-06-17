@@ -8,6 +8,7 @@ Ferramentas utilizadas:
   - Nodejs
   - Travis-ci
   - Coveralls
+  - Three-js
 
 ## Sobre o jogo
 No jogo você deve capturar todos os pontos chave e bases inimigas, eliminando assim o jogador adversário. Vence o player que dominar todas as areas primeiro. 
