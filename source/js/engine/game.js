@@ -10,9 +10,13 @@ class Game {
   scene = undefined;
   camera = undefined;
   renderer = undefined;
+  width = undefined;
+  height = undefined;
 
-  constructor(gameElem) {
+  constructor(gameElem, width, height) {
     this.gameElem = gameElem;
+    this.width = width;
+    this.height = height;
   }
 
   /**
@@ -22,10 +26,13 @@ class Game {
     Debugger.log('Iniciando game engine...');
 
     this.scene = new THREE.Scene();
-    this.camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    this.camera = new THREE.PerspectiveCamera(75, this.width / this.height, 0.1, 1000);
 
     this.renderer = new THREE.WebGLRenderer();
-    this.renderer.setSize(window.innerWidth, window.innerHeight);
+
+    console.log(this.renderer);
+
+    this.renderer.setSize(this.width, this.height);
 
     this.gameElem.appendChild(this.renderer.domElement);
   }

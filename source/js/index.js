@@ -8,5 +8,5 @@ Debugger.active = true;
 let gameElem = document.querySelector('#game');
 
 //-- Inicialização
-let game = new Game(gameElem);
+let game = new Game(gameElem, 250, 250);
 game.init();
